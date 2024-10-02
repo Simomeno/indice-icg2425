@@ -1,6 +1,12 @@
+@font-face {
+  font-family: NeueHaas;
+  src: url("../assets/fonts/NeueHaasDisplayLight.ttf");
+}
+
+
 body{
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:NeueHaas, sans-serif;
     color: white;
   }
   
@@ -37,14 +43,15 @@ body{
   padding-bottom: 50px;
 }
 
-nav h1{
+#top{
   text-align: center;
   display: flex;
   padding-left: 30px;
   padding-right: 30px;
-  font-size: 22px;
+  font-size: 16px;
   color: #ffffff;
   margin: auto 0;
+  text-decoration: none;
 }
 
 nav{
@@ -62,7 +69,6 @@ nav{
 
 }
 #title{
-  
   text-align: center;
   padding-top: 100px;
   font-size: 26px;
@@ -73,6 +79,7 @@ nav{
 nav img{
   width: 30px;
   margin-top: 20px;
+  display: flex;
 }
 
 nav img:hover{
@@ -94,6 +101,7 @@ nav img:hover{
   color: white;
   display: flex;
   flex-direction: row; 
+  
 }
 
 #main a{
@@ -195,11 +203,47 @@ background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149)
     opacity: 1;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   #title{
-    width: 60%;
+    font-size: 18px;
   }
   #list{
-    font-size: none;
+    flex-direction: column;
+  }
+  nav img{
+    display: none;
+  }
+  #list1{
+    flex-direction: column;
+  }
+  #list2{
+    flex-direction: column;
+  }
+  #top{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+  }
+  #box{
+    margin: 0;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+  #subtitle h2{
+    font-size: 11px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+  }
+ 
+  #main{
+    padding-bottom: 50px;
+  }
+  footer img{
+    padding-left: 40px;
   }
 }
+
