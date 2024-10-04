@@ -1,5 +1,5 @@
 
-h1{
+#dnmd{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     text-align: center;
@@ -9,4 +9,7 @@ h1{
 }
 body{
     margin: 0;
+}
+main{
+    height: 800px;
 }
