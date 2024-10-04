@@ -1,12 +1,12 @@
 @font-face {
-  font-family: NeueHaas;
-  src: url("../assets/fonts/NeueHaasDisplayLight.ttf");
+  font-family: Satoshi;
+  src: url("../assets/fonts/Satoshi-Medium.ttf");
 }
 
 
 body{
     margin: 0;
-    font-family:NeueHaas, sans-serif;
+    font-family:Satoshi, sans-serif;
     color: white;
   }
   
@@ -263,7 +263,7 @@ background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149)
   
   }
   #subtitle h2{
-    font-size: 11px;
+    font-size: 13px;
     width: 90%;
     margin: auto;
     margin-bottom: 5px;
