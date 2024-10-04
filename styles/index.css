@@ -211,7 +211,7 @@ background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149)
 
 .c3:hover{
   background-color: rgb(10, 38, 53);
- background-image: linear-gradient(to right, rgb(10, 38, 53), rgb(17, 113, 165));
+ background-image: linear-gradient(to left, rgb(10, 38, 53), rgb(17, 113, 165));
  transition: 0.5s;
 
 
