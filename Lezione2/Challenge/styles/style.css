@@ -10,6 +10,6 @@
 body{
     margin: 0;
 }
-main{
-    height: 800px;
+footer{
+    margin-top: -10px;
 }

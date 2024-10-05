@@ -4,6 +4,7 @@ function setup() {
 }
 
 function draw() {
+  
   background(0);
   orbitControl();
   lights()
@@ -140,6 +141,9 @@ function draw() {
    translate(90,100,0)
    rotateX(90)
    cylinder(10, 30);
+  
+    
+  
  
 }
 
