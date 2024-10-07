@@ -1,62 +1,36 @@
-let xsize = 400;
-let ysize = 400;
+let xsize = 800;
+let ysize = 800;
 
 function setup() {
   createCanvas(xsize, ysize);
+  background("red")
 }
 
 function draw() {
-  //fare cielo scuro
-  background("darkblue");
-  //disegnare luna
-  fill("yellow");
-  stroke("white");
-  strokeWeight(10);
-  circle(300,75, 100);
-  //prima della forma desiderata
-  //cambiare fill e stroke
-  fill("green");
-  stroke("darkGreen");
-  strokeWeight(5);
-  rect(0,200,400,200);
-  strokeWeight(30)
-  stroke("yellow");
-  let xStars_primordiale= 10;
-  let yStars_primordiale= 20;
-  point(xStars_primordiale,yStars_primordiale);
-  let passo=1;
-  //for(init;test;update){corpo}
-  for(let i=0; i<50; i= i+passo){
-    strokeWeight(i*3)
-    if(i%2==0){ //se il resto della divisione del numero per due è zero allora...
-      //corpo di ramo vero
-      stroke("yellow");
-
-    }else{
-      //altrimenti questo
-      stroke("pink");
-    }
-    strokeWeight(i*3);
-    point(xStars_primordiale*i, yStars_primordiale+i);
-  }
-  fill("white");
-  stroke(0);
-  strokeWeight(0);
-  textSize(20);
-  text("C'era una volta...",200,350);
-
-  fill("orange");
-  triangle(100,150,125,125,150,150);
-  let casettaX=100;
-  let casettaY=150;
-  rect(casettaX,casettaY, 50, 50);
-  fill("red");
-  triangle(casettaX,casettaY,casettaX+25,casettaY-25,casettaX+50,casettaY);
-  let distanza=10;
+  fill("lightBlue");
+  triangle(0,200,200,200,100,300);
+  triangle(200,400,200,350,150,350);
+  triangle(200,200,200,400,300,300);
+  triangle(400,200,350,250,350,200);
+  triangle(300,100,400,200,200,200);
+  triangle(0,200,50,150,50,200);
+  triangle(200,200,200,0,100,100);
+  triangle(200,0,250,50,200,50);
+  fill("blue");
+  triangle(200,200,350,200,350,350);
+  triangle(350,50,350,150,300,100);
+  triangle(50,50,100,100,150,50);
+  triangle(350,350,300,300,250,350);
+  triangle(200,200,200,350,50,350);
+  triangle(50,350,50,250,100,300)
+  triangle(200,50,350,50, 200,200);
+  triangle(50,200,50,50, 200,200);
+  line(0,0,400,400);
+  line(0,400,400,0);
   
   
-
   
   
+ 
   
 }

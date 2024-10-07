@@ -32,20 +32,16 @@ function draw() {
   scale(0.08)
   cylinder(10, 40);
   //
-  
   noStroke()
   translate(90,100,-7)
   rotateZ(90)
   cylinder(10, 25);
   //
-  
   noStroke()
   translate(90,100,0)
   rotateZ(90)
   cylinder(10, 30);
-
-
-   //aggiunti con control c
+   //
    fill(53,33,0)
    translate(700,20,20)
    cylinder(10, 40);
@@ -114,10 +110,7 @@ function draw() {
    //
    translate(500,200,10)
    cylinder(10, 40);
-   //
-   
- 
-  
+
 }
 
 
