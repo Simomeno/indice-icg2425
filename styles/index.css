@@ -10,39 +10,6 @@ body{
     color: white;
   }
   
-  #main {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-color: rgb(0, 0, 0);
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin-top: -70px;
-  }
-
-  #list{
-    justify-content: center;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    border-style: solid;
-    border-radius: 20px;
-    border-color: transparent;
-    width: fit-content;
-    margin: auto;
-    background-color:transparent;
-   
-  }
-#subtitle h2{
-  text-align: center;
-  font-size: 17px;
-  font-weight: lighter;
-  
-}
-#subtitle{
-  padding-bottom: 50px;
-}
-
 #top{
   text-align: center;
   display: flex;
@@ -68,13 +35,6 @@ nav{
   border-bottom: solid rgba(255, 255, 255, 0.433) 1px;
 
 }
-#title{
-  text-align: center;
-  padding-top: 100px;
-  font-size: 26px;
-
-  
-}
 
 nav img{
   width: 30px;
@@ -87,28 +47,126 @@ nav img:hover{
   transition: 0.3s;
 }
 
-#lection{
-  border-style: solid;
-  border-color: transparent;
-  background-color:transparent;
-  border-radius: 15px;
-  padding: 15px;
-  padding-right: 50px;
-  padding-left: 50px;
-  width: fit-content;
-  border-width: 2px;
-  font-size: 20px;
-  color: white;
-  display: flex;
-  flex-direction: row; 
-  
+#main {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-top: -70px;
 }
 
 #main a{
   text-decoration: none;
   color: white;
+}
+
+#title{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 26px;
+}
+
+#subtitle h2{
+  text-align: center;
+  font-size: 17px;
+  font-weight: lighter;
   
 }
+#subtitle{
+  padding-bottom: 50px;
+}
+
+#list{
+  display: flex;
+  flex-direction: column;
+}
+#list p{
+  text-align: center;
+}
+#list1{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+#list2{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.lection{
+  border-style: solid;
+  border-color: transparent;
+  background-color:transparent;
+  border-radius: 15px;
+  display: inline;
+  width: 33%;
+  max-width: 33%;
+  border-width: 2px;
+  font-size: 20px;
+  color: white;
+  
+  flex-direction: row; 
+  
+}
+
+.lection3{
+  border-style: solid;
+  border-color: transparent;
+  background-color:transparent;
+  border-radius: 15px;
+  border-width: 2px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  flex-direction: row; 
+  display: inline;
+  
+}
+
+.boxc2 h3{
+  color: black;
+  text-decoration: none;
+}
+.select{
+  
+  border-width: 2px;
+  border-radius: 17px;
+  background-color: rgba(255, 255, 255, 0.696);
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  margin: auto ;
+  margin-bottom: 10px;
+
+}
+.select h3 {
+  margin: 0;
+  line-height: 50px;
+  padding: 0 10px;
+  
+}
+
+#buttons{
+  display: none;
+  flex-direction: column; 
+}
+#button1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#button1 .select{
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 120px;
+  color: black;
+  justify-content: space-between;
+}
+
 footer{
   color: whitesmoke;
   background-color: rgb(0, 0, 0);
@@ -122,37 +180,10 @@ footer{
   z-index: 20;
 }
 
-#list1{
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-}
-#list2{
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-}
-
-#box{
-  border-style: solid;
-  border-color: transparent;
-  border: solid black 2px;
-  border-radius: 28px;
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-bottom: 22px;
-  padding-top: 142px;
-  margin: 15px;
-  margin-bottom: 30px;
-  
-}
-
 #boxfoot{
 flex-direction: column;
 justify-content: center;
 margin: auto;
-
-
 }
 
 #img2{
@@ -172,54 +203,128 @@ footer a{
   justify-content: space-between;
   
 }
-
-.c1{
-background-color: rgb(159,197,217);
-background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149));
+.boxc2{
+  border-style: solid;
+  border-color: transparent;
+  border: solid black 2px;
+  color: black;
+  border-radius: 28px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 22px;
+  padding-top: 142px;
+  max-width: 200px;
+  height: 80px;
+  min-height: 80px;
+  display: block;
+  width: 33%;
+  margin: 15px;
+  overflow: hidden;
+  background-color: rgb(10, 38, 53);
+  background-image: linear-gradient(to bottom, rgb(17, 113, 165), rgb(10, 38, 53));
+ 
 }
-.c2{
-  background-color: rgb(47,92,115);
-  background-image: linear-gradient(to bottom, rgb(67, 128, 158), rgb(16, 38, 49));
-
+.boxc1{
+  border-style: solid;
+  border-color: transparent;
+  border: solid black 2px;
+  color: black;
+  border-radius: 28px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 22px;
+  padding-top: 142px;
+  max-width: 200px;
+  height: 80px;
+  min-height: 80px;
+  display: block;
+  width: 33%;
+  margin: 15px;
+  overflow: hidden;
+  background-color: rgb(10, 38, 53);
+  background-image: linear-gradient(to bottom, rgb(17, 113, 165), rgb(10, 38, 53));
+ 
 }
-.c3{
- background-color: rgb(10, 38, 53);
- background-image: linear-gradient(to bottom, rgb(17, 113, 165), rgb(10, 38, 53));
-
-}
-.c4{
- background-color: rgb(90,136,157);
- background-image: linear-gradient(to bottom, rgb(103, 161, 188), rgb(20, 83, 117));
-
-}
-.c5{
-  background-color: rgb(118,159,177);
- background-image: linear-gradient(to bottom, rgb(118,159,177), rgb(32, 79, 100));
-
-}
-.c6{
-  background-color: rgb(59, 119, 149);
- background-image: linear-gradient(to bottom, rgb(59, 119, 149), rgb(13, 51, 71));
-
-}
-
-#box:hover{
+.boxc1:hover{
+  background-color: rgb(10, 38, 53);
+  background-image: linear-gradient(to left, rgb(10, 38, 53), rgb(17, 113, 165));
+  transition: 0.5s;
   border: solid white 2px;
   transition: 0.4s;
   cursor: pointer;
+  padding-bottom: 160px;
+  padding-top: 0px;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+.boxc1:hover > #buttons{
+  display: flex;
 }
 
-.c3:hover{
+.boxc3{
+  border-style: solid;
+  border-color: transparent;
+  border: solid black 2px;
+  color: black;
+  border-radius: 28px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 22px;
+  padding-top: 142px;
+  max-width: 200px;
+  height: 80px;
+  min-height: 80px;
+  display: block;
+  width: 33%;
+  margin: 15px;
+  overflow: hidden;
   background-color: rgb(10, 38, 53);
- background-image: linear-gradient(to left, rgb(10, 38, 53), rgb(17, 113, 165));
- transition: 0.5s;
-
-
+  background-image: linear-gradient(to bottom, rgb(17, 113, 165), rgb(10, 38, 53));
+ 
 }
+
+
+.boxc3:hover{
+  background-color: rgb(10, 38, 53);
+  background-image: linear-gradient(to left, rgb(10, 38, 53), rgb(17, 113, 165));
+  transition: 0.5s;
+  border: solid white 2px;
+  transition: 0.4s;
+  cursor: pointer;
+  
+  
+}
+.boxc2:hover{
+  background-color: rgb(10, 38, 53);
+  background-image: linear-gradient(to left, rgb(10, 38, 53), rgb(17, 113, 165));
+  transition: 0.5s;
+  border: solid white 2px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding-bottom: 160px;
+  padding-top: 0px;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+.boxc2:hover > #buttons{
+  display: flex;
+}
+
+.boxc3:hover > #buttons{
+  display: flex;
+}
+
 #img1:hover{
   scale: 1.2;
   transition: 0.4s;
 }
+.select:hover{
+  scale: 0.98;
+  transition: 0.3s;
+  background-color: white;
+  
+}
+
 @media (min-width: 0px) and (min-height: 0px) {
   #title h1 {
     animation: fadeIn 4s forwards;
@@ -242,16 +347,18 @@ background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149)
   }
   #list{
     flex-direction: column;
-    width: 85%;
+    width: 100%;
   }
   nav img{
     display: none;
   }
   #list1{
     flex-direction: column;
+    justify-content: center;
   }
   #list2{
     flex-direction: column;
+    justify-content: center;
   }
   #top{
     font-size: 12px;
@@ -259,16 +366,32 @@ background-image: linear-gradient(to bottom, rgb(159,197,217), rgb(29, 107, 149)
     padding-right: 15px;
     
   }
-  #lection{
+  .lection{
     margin: auto;
   }
-  #box{
-    margin: 0;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    padding-left: 45px;
-    padding-right: 45px;
-  
+  .boxc3{
+    width: calc(90% - 160px);
+    margin: 7px auto;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    max-width: 100%;
+
+  }
+  .boxc2{
+    width: calc(90% - 160px);
+    margin: 7px auto;
+    max-width: 100%;
+    padding-top: 70px;
+    padding-bottom: 5px;
+  }
+
+  .boxc1{
+    width: calc(90% - 160px);
+    margin: 7px auto;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    max-width: 100%;
+
   }
   #subtitle h2{
     font-size: 13px;

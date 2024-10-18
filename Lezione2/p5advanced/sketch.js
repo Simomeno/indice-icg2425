@@ -1,9 +1,9 @@
-let xsize = 800;
-let ysize = 800;
+let xsize = 400;
+let ysize = 400;
 
 function setup() {
   createCanvas(xsize, ysize);
-  background("red")
+  background("grey")
 }
 
 function draw() {
@@ -25,12 +25,5 @@ function draw() {
   triangle(50,350,50,250,100,300)
   triangle(200,50,350,50, 200,200);
   triangle(50,200,50,50, 200,200);
-  line(0,0,400,400);
-  line(0,400,400,0);
-  
-  
-  
-  
- 
-  
+
 }
