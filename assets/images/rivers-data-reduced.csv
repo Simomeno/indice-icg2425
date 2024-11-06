@@ -1,0 +1,11 @@
+id,name,countries,length,area,discharge,outflow,continent,tributaries,min_temp,max_temp,avg_temp
+1,Nile–White Nile–Blue Nile,"Burundi, Tanzania, Rwanda, Uganda, DR Congo, Kenya, South Sudan, Sudan, Ethiopia, Eritrea, Egypt",6650,3254555,2800,Mediterranean Sea,Africa,2,25,30,27.5
+2,Amazon–Ucayali–Tambo–Ene–Mantaro,"Brazil, Peru, Bolivia, Colombia, Ecuador, Venezuela",6575,7050000,209000,Atlantic Ocean,South America,1100,24,28,26
+3,Yangtze,China,6300,1808500,31900,East China Sea,Asia,700,16,18,17
+4,Mississippi–Missouri–Jefferson–Beaverhead–Red Rock–Hell Roaring,United States,6275,2980000,16200,Gulf of Mexico,North America,250,10,25,17.5
+5,Yenisei–Angara–Selenge–Ider,"Russia, Mongolia",5539,2580000,19800,Kara Sea,Asia,102,-10,5,-2.5
+6,Yellow River,China,5464,752546,2110,Bohai Sea,Asia,50,8,15,11.5
+7,Ob–Irtysh,"Russia, Kazakhstan, China, Mongolia",5410,2990000,12800,Gulf of Ob,Asia,50,-5,10,2.5
+8,Río de la Plata–Paraná–Rio Grande,"Argentina, Brazil, Bolivia, Paraguay, Uruguay",4880,3100000,25700,Atlantic Ocean,South America,80,15,22,18.5
+9,Congo–Chambeshi,"Democratic Republic of the Congo, Central African Republic, Angola, Republic of the Congo, Tanzania, Cameroon, Zambia, Burundi, Rwanda",4700,4014500,41300,Atlantic Ocean,Africa,40,22,26,24
+10,Amur–Argun,"Russia, China, Mongolia",10000,1855000,11000,Sea of Okhotsk,Asia,30,-10,5,-2.5

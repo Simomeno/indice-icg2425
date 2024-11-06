@@ -11,7 +11,7 @@ function draw() {
   push()
   strokeWeight(1);
   fill("orange");
-  rotate(angle*0.1);
+  rotate(angle);
   rect(50,50,100,50);
   pop();
   //degree, radians
